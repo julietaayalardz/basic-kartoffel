@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+
+    <body>
+        <h1>Temperature and location</h1>
+        <form>
+            <label>Latitud:</label>
+            <input type="text" id="lat_input">
+            <br><br>
+            <label >Longitud:</label>
+            <input type="text" id="long_input">
+            <br><br>
+            <button onclick="sendCoordinates()">Enviar</button>
+            <br><br>
+            <label>Temperatura:</label>
+            <label id="temp_output">°C</label>
+            <br><br>
+            <label>Sensación térmica:</label>
+            <label id="sens_output">°C</label>
+          </form>
+    </body>
+
+</html>
